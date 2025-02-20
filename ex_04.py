@@ -1,4 +1,4 @@
-valorHora = int(input("Digite o valor da hora de trabalho: "))
+valorHora = float(input("Digite o valor da hora de trabalho: "))
 numHora = int(input("Digite o número de horas trabalhadas no mês: "))
 
 salarioBruto = valorHora * numHora

@@ -9,7 +9,6 @@ calculoMinutos = minutos * 60
 
 segundos = int(input("digite a quantidade de segundos: "))
 
+tempo = (dias * 86400) + (horas * 3600) + (minutos * 60) + segundos
 
-tempoTotal = calculoDias + calculoHoras + calculoMinutos + segundos
-
-print ("tempo total foi de %d segundos" % tempoTotal)
+print (f"tempo total foi de {tempo} segundos" )
