@@ -7,8 +7,8 @@ INSS = salarioBruto * (8/100)
 sindicato = salarioBruto * (5/100)
 salarioLiquido = salarioBruto - impostoRenda - INSS - sindicato
 
-print("+ Salário Bruto: R$ %.2f" % salarioBruto)
-print("- IR (11%): R$ %.2f" % impostoRenda)
-print("- INSS (8%): R$ %.2f" % INSS)
-print("- Sindicato (%5): R$ %.2f" % sindicato)
-print("+ Salário liquido: R$ %.2f" % salarioLiquido)
+print(f"+ Salário Bruto: R$ {salarioBruto:.2f}")
+print(f"- IR (11%): R$ {impostoRenda:.2f}")
+print(f"- INSS (8%): R$ {INSS:.2f}")
+print(f"- Sindicato (%5): R$ {sindicato:.2f}")
+print(f"+ Salário liquido: R$ {salarioLiquido:.2f}")
